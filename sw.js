@@ -6,8 +6,8 @@ var filesToCache = [
 ];
 self.addEvenListener('install',function(e) {
   e.waitUntil(
-    caches.open(cacheName) . then(function(cache){
-      return cache.adAll(filesToCache);
+    caches.open(cacheName).then(function(cache){
+      return cache.addAll(filesToCache);
     })
   );
 });

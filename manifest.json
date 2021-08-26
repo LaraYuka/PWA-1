@@ -6,29 +6,29 @@
   "background_color": "#CD4FFF",
   "description": "Web App Manifest",
   "icons": [{
-    "src": "images/touch/homescreen48.png",
+    "src": "./image/img48.png",
     "sizes": "48x48",
-    "type": "image/img48.png"
+    "type": "image/png"
   }, {
-    "src": "images/touch/homescreen72.png",
+    "src": "./image/img74.png",
     "sizes": "72x72",
-    "type": "image/img74.png"
+    "type": "image/png"
   }, {
-    "src": "images/touch/homescreen96.png",
+    "src": "./image/img96.png",
     "sizes": "96x96",
-    "type": "image/img96.png"
+    "type": "image/png"
   }, {
-    "src": "images/touch/homescreen144.png",
+    "src": "./image/img144.png",
     "sizes": "144x144",
-    "type": "image/img144.png"
+    "type": "image/png"
   }, {
-    "src": "images/touch/homescreen168.png",
+    "src": "./image/img168.png",
     "sizes": "168x168",
-    "type": "image/img168.png"
+    "type": "image/png"
   }, {
-    "src": "images/touch/homescreen192.png",
+    "src": "image/img192.png",
     "sizes": "192x192",
-    "type": "image/img192.png"
+    "type": "image/png"
   }]
   
 }

@@ -4,7 +4,7 @@ var filesToCache = [
   './index.html',
   './manifest.json'
 ];
-self.addEvenListener('install',function(e) {
+self.addEvenListener('install',function(e){
   e.waitUntil(
     caches.open(cacheName).then(function(cache){
       return cache.addAll(filesToCache);
